@@ -113,10 +113,10 @@ def task_7():
 
 
 
-# task_1(["john", "marta", "james", "amanda", "marianna"])
-# task_2()
-# task_3()
+task_1(["john", "marta", "james", "amanda", "marianna"])
+task_2()
+task_3()
 # task_4(['Jack', 'Leon', 'Alice', None, 32, 'Bob'])
 # task_5()
 # task_6()
-task_7()
+# task_7()
