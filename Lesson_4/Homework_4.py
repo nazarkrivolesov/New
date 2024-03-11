@@ -68,29 +68,49 @@ def task_7():
         op = input('Enter operator: ')
         if op == '+':
             print(a+b)
-            continue
+            i = input("If you want to calculate enter 'start': ")
+            if i == 'start':
+                continue
+            else:
+                print('Bye')
+                break
 
         if op == '-':
             print(a-b)
-            continue
+            i = input("If you want to calculate enter 'start': ")
+            if i == 'start':
+                continue
+            else:
+                print('Bye')
+                break
 
         if op == '/':
             if b == 0:
                 count +=1
-                print("Ділення на нуль неможливе, введіть інше значення")
+                print("Division by zero is not possible, enter another value")
                 continue
             else:
                 print(a/b)
+                i = input("If you want to calculate enter 'start': ")
+                if i == 'start':
+                    continue
+                else:
+                    print('Bye')
+                    break
 
         if op == '*':
             print(a*b)
             i = input("If you want to calculate enter 'start': ")
             if i == 'start':
                 continue
-            break
+            else:
+                print('Bye')
+                break
 
     else:
-        print('Спроби завершились')
+        print('The attempts are over')
+
+
 
 
 # task_1(["john", "marta", "james", "amanda", "marianna"])
@@ -99,4 +119,4 @@ def task_7():
 # task_4(['Jack', 'Leon', 'Alice', None, 32, 'Bob'])
 # task_5()
 # task_6()
-# task_7()
+task_7()
